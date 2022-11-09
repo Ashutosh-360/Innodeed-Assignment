@@ -9,8 +9,8 @@ function CarComponent({ data }) {
       <h4>{data.modelType}</h4>
       <img src={data.imageUrl} alt="" />
       <div className="links">
-        <Link>Learn ></Link>
-        <Link>Shop ></Link>
+        <a>Learn ></a>
+        <a>Shop ></a>
       </div>
     </div>
   );
